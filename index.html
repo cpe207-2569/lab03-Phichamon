@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="fav.html">Favourites</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="news pt-4">
+    <div class="about-me p-4 gap-4 flex items-center max-w-180" >
+      <img class="w-20 md:w-32 lg:w-48 rounded-3xl" src="images/photo-of-purin.jpg">
+      <div>
+        <h3 class="font-semibold md:text-3xl">นางสาวพิชามญชุ์ แก้วบุตร</h3>
+        <p class="font-semilight text-sm md:text-base text-gray-700">
+          สวัสดีค่ะ หนูชื่อภูรินท์ ปัจจุบันเป็นนักศึกษาภาควิชาวิศวกรรมคอมพิวเตอร์ที่มหาวิทยาลัยเชียงใหม่
+        </p>
+      </div>
+    </div>
+
+    <div class="max-w-4xl">
+      <br>
+      <h2 class="font-semibold text-2xl text-center">ทักษะความสามารถ</h2>
+      <br>
+
+      
+      <div class="bg-white border border-grey rounded-2xl p-5">
+        <div class="flex items-center gap-2 ">
+          <i class="fa-solid fa-code"></i>
+          <h3 class="font-medium text-xl">โปรแกรมมิ่ง</h3>
+        </div>
+        <p class="text-gray-700">เคยมีประสบการณ์เขียนโปรแกรมในภาษา C, C++, Python</p>
+      </div>
+
+      <br>
+      <div class="bg-white border border-grey rounded-2xl p-5">
+        <div class="flex items-center gap-2 align-items-center">
+          <i class="fa-solid fa-language"></i>
+          <h3 class="font-semibold text-xl">ภาษา</h3>
+        </div>
+        <p class="text-gray-700">มีภาษาไทยเป็นภาษาแม่ และระดับภาษาอังกฤษอยู่ที่B2</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>

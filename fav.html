@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="">
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="fav.html">Favourites</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="content flex flex-col items-center mx-auto gap-8 p-3 max-w-3xl">
+        <h1 class="font-semibold text-4xl p-3 text-gray-800">Favourites</h1>
+
+        <div class="flex flex-col md:flex-row w-full items-stretch gap-4 items-center bg-white border border-grey rounded-3xl overflow-hidden">
+            <img class="w-full h-48 md:w-48 lg:w-64 object-cover"
+                src="images/data-science.jpg" >
+            <div class="p-2 flex flex-col justify-center">
+                <a href="https://www.geeksforgeeks.org/data-science/data-science-for-beginners/" target="_blank" class="font-semibold text-2xl">Data Science</a>
+                <p class="text-gray-700">ศาสตร์ที่ผสานคณิตศาสตร์ สถิติ วิทยาการคอมพิวเตอร์ และความเชี่ยวชาญเฉพาะด้าน เพื่อแปลงข้อมูลมหาศาลให้เป็นข้อมูลเชิงลึก</p>
+            </div>
+        </div>
+
+        <div class="flex flex-col-reverse md:flex-row w-full items-stretch gap-4 items-center bg-white border border-grey rounded-3xl overflow-hidden">
+            <div dir="ltr" class="ps-6 flex-1 flex flex-col justify-center">
+                <a href="https://www.robinwieruch.de/web-applications/" target="_blank" class="font-semibold text-2xl">
+                    Web Application</a>
+                <p class="text-gray-700">ซอฟต์แวร์ที่ทำงานบนเว็บเบราว์เซอร์ โดยไม่ต้องดาวน์โหลดหรือติดตั้งลงเครื่อง
+                ผู้ใช้สามารถเข้าถึงระบบที่มีความซับซ้อน</p>
+            </div>
+            <img class="w-full h-48 md:w-48 lg:w-64 object-cover"
+                src="images/webapp.jpg">
+        </div>
+
+        <div
+            class="flex flex-col md:flex-row w-full items-stretch gap-4 items-center bg-white border border-grey rounded-3xl overflow-hidden">
+            <img class="w-full h-48 md:w-48 lg:w-64 object-cover"
+                src="images/pwa.jpg">
+            <div class="p-2 flex flex-col justify-center">
+                <a href="https://web.dev/learn/pwa" target="_blank"
+                    class="font-semibold text-2xl">Progressive Web App (PWA)</a>
+                <p class="text-gray-700">เว็บไซต์ที่ถูกพัฒนาขึ้นด้วยเทคโนโลยีเว็บมาตรฐาน แต่มีหน้าตา การตอบสนอง
+                และการทำงานเทียบเท่ากับแอปพลิเคชันบนมือถือ</p>
+            </div>
+        </div>
+
+        <div
+            class="flex flex-col-reverse md:flex-row w-full items-stretch mx-w-200 gap-4 items-center bg-white border border-grey rounded-3xl overflow-hidden">
+            <div dir="ltr" class="ps-6 flex-1 flex flex-col justify-center">
+                <a href="https://ctf.in.th/" target="_blank" class="font-semibold text-2xl">
+                    CTF (Capture The Flag)</a>
+                <p class="text-gray-700">เกมการแข่งขันด้านความปลอดภัยทางไซเบอร์ โดยผู้เข้าแข่งขันจะต้องแฮ็ก ค้นหา หรือถอดรหัสเพื่อดึง Flag ที่ซ่อนอยู่ในระบบหรือโจทย์ที่จำลองขึ้นมา เพื่อรับคะแนน</p>
+            </div>
+            <img class="w-full h-48 md:w-48 lg:w-64 object-cover" src="images/ctf.jpg">
+        </div>
+
+    </div>
+
+
+</body>
+</html>
